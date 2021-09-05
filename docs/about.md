@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 description: about me
 sitemap:
     priority: 0.7

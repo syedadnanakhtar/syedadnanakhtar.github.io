@@ -9,16 +9,19 @@ sitemap:
     changefreq: weekly
 ---
 # Projects
-
+<hr />
 <!-- ![](/images/work-in-progress.png) -->
 
-In Progress!
+<!-- In Progress!
 
-<hr />
+<hr /> -->
 
 ## Learning For Control: An Inverse Optimization Approach
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wdtb3YNNzOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The paper presents a learning method to learn the mapping from an input space to an action space, which is particularly suitable when the action is an optimal decision with respect to a certain unknown cost function. I use an inverse optimization approach to retrieve the cost function by introducing a new loss function and a new hypothesis class of mappings. A tractable convex reformulation of the learning problem is also presented. The method is effective for learning input-action mapping in continuous input-action space with input-output constraints, typically present in control systems. The learning approach can be effectively transformed to learn a Model Predictive Control (MPC) behaviour and a case study to mimic an MPC is presented, which is a rather computationally heavy control strategy.
+
+Please find the related paper [here](https://ieeexplore.ieee.org/document/9336679)
 
 <hr />
 
